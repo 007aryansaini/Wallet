@@ -1,0 +1,123 @@
+.bg-transparent{
+    background: transparent !important;
+    box-shadow: unset !important;
+}
+
+.header-title{
+    font-size: xx-large !important;
+}
+
+.header-sub-title{
+    font-size: small !important;
+    color: gray !important;
+}
+
+#passwordSet{
+    padding: 15px !important;
+}
+
+#passwordSet input{
+    background: #232949 !important;
+    border-radius: 50px !important;
+    height: 15px !important;
+    width: 15px !important;
+    color: #fff;
+    border: unset !important;
+    outline: unset !important;
+}
+
+#passwordSet .MuiInputBase-formControl{
+    border-radius: 50px !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.seed-phrase-section{
+    margin-top: 2rem;
+    font-size: smaller;
+    padding: 0 30px;
+    text-align: left;
+}
+
+.recovery-public-key-section-2{
+    margin-top: 50px;
+    color: white;
+    background: #192255 !important;
+    padding: 30px 40px !important;
+    border: 2px solid #CDBE6F;
+    border-radius: 50px !important;   
+    position:  relative !important 
+}
+
+.getNewSeedBtn{
+    margin-top: 20px !important;
+    border: unset !important;
+    color: gray !important;;
+}
+
+.recoverySectionTopBtn-2{
+    background: #0d1541 !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 0% !important;
+    left: 50% !important;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px !important;
+    border: 1px solid rgb(124, 118, 42);
+    transform: translate(-50%, -50%) !important;
+}
+
+.recoverySectionBottomBtn{
+    background: #0d1541 !important;
+    margin: 0 !important;
+    position: absolute !important;
+    bottom: -35% !important;
+    left: 50% !important;
+    padding: 10px 40px !important;
+    border-radius: 20px !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.cancelBtn{
+    padding: 20px !important;
+    background: black !important;
+    width: 90% !important;
+    border-radius: 30px !important;
+    text-transform: capitalize !important;
+    font-size: larger !important;
+}
+
+
+.verifyBtn{
+    padding: 20px !important;
+    background: #27378c !important;
+    width: 90% !important;
+    border-radius: 30px !important;
+    font-size: larger !important;
+    text-align: center;
+    margin-bottom: 50px;;
+}
+
+.verifyBtn-2{
+    display: inline-flex;
+    /* margin: 10px;
+    padding: 2px; */
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #232949;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #CDBE6F;
+    box-shadow: 0px 2px 4px 0px rgba(75, 76, 118, 0.50);
+}
+
+.verifyBtn-2:disabled,
+.verifyBtn-2[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}

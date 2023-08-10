@@ -1,0 +1,33 @@
+.confirm-secret-phrase-selectables{
+    display: inline-flex;
+    margin: 10px;
+    padding: 2px;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #232949;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #CDBE6F;
+    box-shadow: 0px 2px 4px 0px rgba(75, 76, 118, 0.50);
+}
+
+.copy-text{
+    color: #FFF;
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.next-button-confirm{
+    margin-left: 20px;;
+    display: flex;
+    width: 343px;
+    padding: 16px 151px;
+    align-items: flex-start;
+    gap: 10px;
+    /* border: none; */
+    border-radius: 81px;
+    background: var(--button, linear-gradient(321deg, #64199F 0%, #2D2B79 100%));
+}

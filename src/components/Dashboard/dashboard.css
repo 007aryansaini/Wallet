@@ -1,0 +1,206 @@
+
+
+.main-div{
+    /* padding: 15px;
+    padding-top: 40px;;
+    width: 375px;
+    height: 1381px;
+    flex-shrink: 0;
+    background: #091023;
+    margin-left: 30%; */
+    /* display: flex; */
+    /* margin-left: 30%;
+    padding-top: 20px; */
+    
+    width: 375px;
+    height: 1381px;
+    flex-shrink: 0;
+    background: #091023;
+}
+
+.upper-div{
+    padding: 15px;
+    padding-top: 40px;;
+    
+    
+    display: flex;
+}
+
+.heading{
+    margin-top: -5px;
+    color: #FFF;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header{
+    text-align: center;
+    width: 374px;
+}
+
+.currency{
+    color: #FFF;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.scanner{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.seperating-line{
+    width: 375px;
+    height: 0.2px;
+    background-color: #9b9898;
+}
+
+.content-heading{
+    color: #FFF;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.total-balance{
+    color: #CDCDCD;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.total-balance-amount{
+    margin-top: 5px;;
+    color: var(--secondary-color, #F3EDFF);
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address-container{
+    width: 181px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 46px;
+    background: #474679;
+    margin-left: 25%
+}
+
+.address{
+    color: #FFF;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.inside-button-container{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #474679;
+    border-radius: 50%;
+    margin-left: 20px;
+   
+}
+.button-image{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.data-container{
+    width: 375px;
+    height: 864px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    background: #4F5095;
+    margin-top: 40px;;
+}
+
+.main-data{
+    display: flex;
+    margin-left: 5px;;
+}
+
+.data-image{
+    margin-top: 15px;;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 40px;
+}
+
+.inside-data-container{
+    padding-left: 10px;;
+}
+.data-currency{
+    color: #FFF;
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.data-heading{
+    color: #FFF;
+    margin-top: 5px;;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right-container{
+    margin-left: 50%;
+    margin-top: -5px;
+}
+
+.dollar-equivalent{
+    color: #FFF;
+    /* margin-left: 50%; */
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.percentile-container{
+    color: #A0A0A0;
+    margin-top: -5px;;
+    text-align: right;
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

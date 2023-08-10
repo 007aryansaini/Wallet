@@ -1,0 +1,9 @@
+.set-username-input{
+    width: 343px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #1E254E;
+    color: #fff;
+    font-size: 18px;
+}
